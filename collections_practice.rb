@@ -42,6 +42,7 @@ end
 def add_s(array)
   array.each_with_index.collect  do |element, index|}
   if index !+ 
-    element ==   
+    element = element + "s"
+  end
 
 end
