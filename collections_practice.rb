@@ -4,5 +4,8 @@ end
 
 def sort_array_desc(intergers)
 intergers.sort {|x,y| y<=>x}
+end
 
+def sort_array_char_count(strings)
+  strings.sort {|x,y|
 end
