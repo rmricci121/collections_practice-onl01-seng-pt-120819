@@ -27,6 +27,8 @@ end
 
 def find_a(array)
   array.map do |x|
-   x.start_with?("a")
+   if x.start_with?("a")
+     return x 
+   end
 end
 end
