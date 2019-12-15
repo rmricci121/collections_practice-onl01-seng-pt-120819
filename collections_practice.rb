@@ -3,5 +3,5 @@ intergers.sort
 end
 
 def sort_array_desc(intergers)
-
+intergers.sort do |x,y|
 end
