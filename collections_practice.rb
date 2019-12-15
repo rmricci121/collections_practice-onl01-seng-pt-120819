@@ -31,5 +31,6 @@ def find_a(array)
    if x.start_with?("a")
      a_array << x 
    end
+   a_array
 end
 end
