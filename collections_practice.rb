@@ -17,3 +17,8 @@ end
 def reverse_array(intergers)
   intergers.reverse
 end
+
+def kesha_maker(array)
+  kesha = []
+  array.each {|x| 
+end
