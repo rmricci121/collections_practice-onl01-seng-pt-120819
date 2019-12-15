@@ -7,5 +7,5 @@ intergers.sort {|x,y| y<=>x}
 end
 
 def sort_array_char_count(strings)
-  strings.sort {|x,y|
+  strings.sort {|x,y| x.length <=> y.length}
 end
