@@ -20,5 +20,5 @@ end
 
 def kesha_maker(array)
   kesha = []
-  array.each {|x| 
+  array.each {|x| kesha << x[2] <=> "$" }
 end
